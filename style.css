@@ -29,6 +29,7 @@ h1{
 #contact{
 	width: 100%;
 	line-height: 25px;
+	margin: 30px 0 0px 0px;
 
 }
 
@@ -44,16 +45,28 @@ h1{
 
 }
 
+.menu{
+	color: #f5f5f5;
+	font-size: 40px;
+	display: none;
+	width: 98%;
+	text-align: right;
+	margin-top:1%;
+}
 
+.menu:hover{
+	cursor: pointer;
+	color: #f5d2d2;
+}
 
 /* ------------- FOOTER -----------*/
 
 
 footer{
 	text-align: center;
-	background:white;
+	background:#f5f5f5;
 	padding: 20px;
-	color: white;
+	color: #f5f5f5;
 }
 
 footer a{
@@ -82,12 +95,11 @@ footer a{
 
 .tw:hover{
 	color: #55acee;
-	background: white;
+	
 }
 
 .ig:hover{
 	color: #e4405f;
-	background: white;
 
 }
 
@@ -102,6 +114,121 @@ footer a{
 
 
 /* ------------- FOOTER END -----------*/
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+	
+
+	header{
+	 height: 100%;
+	}
+
+	.menu{
+		display: block;
+	}
+
+	.h{
+		display:none;
+		text-align: center;
+	}
+
+	.h ul li{
+		display: block;
+		float: none;
+		width: 100%;
+	}
+
+
+	.active{
+		display: block;
+	}
+
+
+	.logo{
+		width: 65px;
+	}
+
+
+	.h-p{
+		margin-top: 55%;
+	}
+
+
+	#services{
+		width: 70%;
+		padding: 0 15%;
+		height: 580px;
+	}
+
+
+	.one-3{
+		width: 100%;
+	}
+
+
+	.of{
+	width:90%;
+	float: left;
+	margin: 2% 5%;
+	overflow: hidden;
+
+}
+
+
+
+#about{
+	height: auto;
+
+}
+
+
+.abt-container{
+	height: 750px;
+}
+
+.abt-parallax{
+	height: 160px;
+	padding-top:60px; 
+}
+
+
+.inner-abt{
+	height: 220px;
+}
+
+.abt-img{
+width: 250px;
+margin: 0 auto;
+}
+
+aside{
+	width: 100%;
+	padding: 20px 0px;
+}
+
+
+article{
+	width: 100%;
+	height: 350px;
+	line-height: auto;
+	overflow:none;
+	float: none;
+	font-size: 80%;
+}
+
+.skills{
+	padding: 4% 10%;
+
+
+}
+
+
+
 
 
 

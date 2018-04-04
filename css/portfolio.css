@@ -8,20 +8,25 @@
 	padding: 0 10%;
 	height: 310px;
 	background: #f2f5f5;
+
 }
 
 #services h1{
 	padding: 40px 0px 20px 0px;
+	color:#474343;
 }
 
 .one-3 h3{
 	margin: 10px 0px;
+	color:#474343;
 }
 
 .one-3 p{
 font-style: italic;
 }
 .one-3{
+
+	color:#302f2f;
 	line-height: 140%;
 	width:29.33%;
 	float: left;
@@ -29,6 +34,10 @@ font-style: italic;
 	font-size: 90%;
 	margin: 2%;
 }
+
+#services-logo{
+	color: #6797e0;
+	font-size: 30px;}
 
 
 /* ------------- Portfolio section ------------*/
@@ -44,6 +53,7 @@ font-style: italic;
 #portfolio h1{
 	text-align: center;
 	padding-top: 20px; 
+	color: #474343;
 
 }
 
@@ -51,6 +61,7 @@ font-style: italic;
 	text-align: center;
 	padding-top: 20px; 
 	font-style: italic;
+		color: #474343;
 
 }
 
