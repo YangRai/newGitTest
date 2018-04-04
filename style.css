@@ -51,7 +51,7 @@ h1{
 	display: none;
 	width: 98%;
 	text-align: right;
-	margin-top:1%;
+	margin-top:2%;
 }
 
 .menu:hover{
@@ -150,8 +150,10 @@ footer a{
 
 
 	.logo{
-		width: 55px;
-		margin-top: -1%;
+		width: 70px;
+		padding: 0px;
+		margin-top: -8px;
+
 	}
 
 
@@ -227,16 +229,37 @@ article{
 
 
 }
-	
-	
+
 .footer-nav ul li{
 
-	font-size: 70%;
+font-size: 80%;
 
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
 
 
 
