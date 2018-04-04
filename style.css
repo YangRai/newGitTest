@@ -231,7 +231,7 @@ article{
 }
 
 .footer-nav ul li{
-
+display:block;
 font-size: 80%;
 
 }
